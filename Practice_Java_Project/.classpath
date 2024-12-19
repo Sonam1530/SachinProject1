@@ -6,6 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Software/testng-6.9.10.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="D:/Software/Selemium Webdriver/selenium-server-4.26.0.jar"/>
 	<classpathentry kind="lib" path="D:/Software/Selemium Webdriver/selenium-java-4.26.0/selenium-chrome-driver-4.26.0.jar"/>
 	<classpathentry kind="output" path="bin"/>

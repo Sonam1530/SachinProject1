@@ -11,6 +11,12 @@ import org.openqa.selenium.support.ui.Select;
 public class CheckBoxHandle {
 
 	public static void main(String[] args) throws Exception {
+		//
+		//
+		//
+		//
+		//
+		//
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\Software\\Selemium Webdriver\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");
@@ -26,11 +32,15 @@ public class CheckBoxHandle {
 		driver.manage().deleteAllCookies();
 		driver.findElement(By.xpath("//a[contains(text(), ' Electronics ')]")).click();
 
-	
-
 		WebElement element = driver.findElement(By.xpath("//select[@id='day']"));
 		Select day = new Select(element);
 		Thread.sleep(2000);
 		day.selectByValue("25");
+		//
+		//
+		//
+		//
+		//
+		
 	}
 }
