@@ -14,14 +14,17 @@ public class Online {
 				WebDriver driver = new ChromeDriver();
 				// wait for given time
 				Thread.sleep(4000);
-				driver.get("https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=713930225169&hvpos=&hvnetw=g&hvrand=7621698402109511345&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9182035&hvtargid=kwd-64107830&hydadcr=14452_2402225&gad_source=1");
+				driver.get("https://www.amazon.in/home");
 				driver.manage().window().maximize();
 
 				// Delete all cookies
 				Thread.sleep(3000);
 				driver.manage().deleteAllCookies();
-driver.findElement(By.xpath("//a[contains(text(),'Start here.')]")).click();
+                driver.findElement(By.xpath("//span[@class='icp-nav-link-inner']//span[@class='nav-icon nav-arrow']")).click();
 				Thread.sleep(2000);
+				
+			
+	
 	}
 
 }
